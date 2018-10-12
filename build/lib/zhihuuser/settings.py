@@ -115,7 +115,7 @@ SCHEDULER_QUEUE_CLASS='scrapy_redis.queue.SpiderPriorityQueue'
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 
 REDIS_URL =None
-REDIS_HOST='176.209.106.50'
+REDIS_HOST='127.0.0.1'
 REDIS_PORT=6379
 HTTPERROR_ALLOWED_CODES = [403]
 # SCHEDULER = "scrapy_redis.scheduler.Scheduler"
